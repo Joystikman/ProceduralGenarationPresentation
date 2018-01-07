@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Procedural Generation</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</head>
+<body>
+	<header id="header" class="header">
+	</header><!-- /header -->
+	<main class="diapo2">
+    <h2>Let's make our own game</h2>
+    <a href="example.html">➡️</a>
+	</main>
+</body>
+<script type="text/javascript" charset="utf-8">
+  nextPage();
+
+  function nextPage(){
+    document.addEventListener('keydown', function(event) {
+      if(event.keyCode == 37) {
+          //document.location.href="example.html"
+        }
+        else if(event.keyCode == 39) {
+          document.location.href="example.html"
+        }
+  });
+  }  
+</script> 
+</html>

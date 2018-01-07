@@ -1,0 +1,116 @@
+/*@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');*/
+@font-face {
+  font-family: Vollkorn SC;
+  src: url("Vollkorn_SC/VollkornSC-Regular.ttf");
+}
+
+body{
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: 'Vollkorn SC', serif;
+}
+
+.diapo1{
+  margin: 20% 20%;
+  font-size: 150%;
+}
+
+.diapo2{
+  margin: 20% 20%;
+  font-size: 150%;
+}
+
+.diapo2 i{
+  background-color: black;
+  color: white;
+}
+
+.diapo3{
+  margin: 15% 20%;
+  font-size: 150%;
+}
+
+.diapo3 ul{
+  text-align: left;
+}
+
+.diapo4{
+  margin: 10% 5%;
+}
+
+.diapo4 .cards{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.diapo4 .cardGame{
+  font-weight: bold;
+}
+
+.diapo4 img{
+  width: 400px;
+  height: auto;
+}
+
+.diapo5{
+  margin: 10% 10%;
+}
+
+.diapo5 img{
+  max-height: 500px;
+  width: auto;
+}
+
+.sprite{
+  margin: 15% 20%;
+}
+
+.sprite h2{
+  background-color: black;
+  color: white;
+}
+
+.map{
+  margin: 1%;
+}
+
+.map h2{
+  background-color: black;
+  color: white;
+}
+
+.story{
+  margin: 15% 20%;
+}
+
+.story h2{
+  background-color: black;
+  color: white;
+}
+
+.story p{
+  margin: 2% 20%;
+  font-size: 32px;
+}
+
+#spriteDiv{
+  padding: 20px 30%;
+}
+
+.game{
+  text-align: center;
+  margin: 1%;
+  overflow: hidden;
+}
+
+.game #story{
+  margin : 2% 30%;
+}
+
+.mapGame{
+  height: 1500px;
+  background-image: url(../img/map/canvas.png);
+  background-repeat: repeat-x;
+}
