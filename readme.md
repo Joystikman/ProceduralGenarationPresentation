@@ -1,7 +1,7 @@
 # Procedural Generation in video games : Let's computers make the games
 *english*
 
-letscomputersmakethegames.maximeguiraud.fr
+http://letscomputersmakethegames.maximeguiraud.fr/index.html
 
 This is the presentation of a little talk I made for my english class 💂. 
 
